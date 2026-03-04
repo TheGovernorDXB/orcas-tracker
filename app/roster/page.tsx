@@ -1,4 +1,6 @@
-import { supabase } from "../../src/lib/supabase-browser";
+import { supabase } from "../src/lib/supabase-browser";
+
+export default async function RosterPage() {
 
 export default async function RosterPage() {
   const { data: members } = await supabase
